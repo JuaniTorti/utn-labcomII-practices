@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>formulario personal</title>
+
+    <style>
+        fieldset {
+            width: 26%;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>INSCRIPCION</h1>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" />
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+            <br><br>
+            <label for="edad">Fecha de nacimiento:</label>
+            <input type="date" id="edad" />
+            <br><br>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad">
+                <option value="Extranjero">Extranjero</option>
+                <option value="Argentino" selected>Argentino</option>
+            </select>
+            <br><br>
+            <label for="trabajo">Estado laboral:</label>
+            <select id="trabajo">
+                <option value="desempleado">Desempleado</option>
+                <option value="en_busqueda">En busqueda</option>
+                <option value="parttime">Part time</option>
+                <option value="fulltime">Full time</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Gustos personales</legend>
+                <label for="musica">Genero musical favorito:</label>
+                <input type="text" id="musica" />
+                <br><br>
+                <label for="comida">Comida favorita:</label>
+                <select id="comida">
+                    <option value="mila">Milanesas</option>
+                    <option value="fideos">Fideos</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="Hamb">Hamburgesa</option>
+                    <option value="ensalada">Ensalada</option>
+                </select>
+            </fieldset>
+            <br><br>
+            <label for="recordar">Recordar mis datos</label>
+            <input type="checkbox" id="recordar">
+            <br>
+            <button>Enviar</button>
+        </fieldset>
+    </center>
+</body>
+
+</html>
