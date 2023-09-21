@@ -1,0 +1,14 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darksalmon;
+    padding: 20px;
+    width: 35%;
+    font-family: sans-serif;
+}
+
+.label{
+    justify-self: start;
+    margin-top: 10px;
+}

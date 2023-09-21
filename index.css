@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+#txt_header{
+    margin-left: 100px;
+}
+
+#datos_rapidos{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: solid 1px;
+    justify-self: start;
+    margin-right: 100px;
+}
+
+.titulo{
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+#cont_medio{
+    display: flex;
+}
+
+#texto{
+    justify-self: center;
+    align-self: center;
+}
+
+#tit{
+    background-color: dimgrey;
+}
+
+#historia{
+    width: 50%;
+}
